@@ -25,4 +25,3 @@ terraform_012_parameters:
 - root_module: scan/for-expressions/
   variable_files:
   - scan/rich-value-types/expressions/variables.tf
-					
