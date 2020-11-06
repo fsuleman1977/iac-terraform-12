@@ -16,13 +16,12 @@ terraform_version: 0.12
 # - variables, which is an array of name/value pairs that identify the input variables for the module
 
 terraform_012_parameters:
-						- root_module: scan/rich-value-types/
-						  variables:
-						  - name: check
-						    value: public-read-write
-						  - name: varName2
-						    value: varValue2
-						- root_module: scan/for-expressions/
-						  variable_files:
-						  - scan/rich-value-types/expressions/variables.tf
-					
+- root_module: scan/rich-value-types/
+  variables:
+  - name: check
+    value: public-read-write
+  - name: varName2
+    value: varValue2
+- root_module: scan/for-expressions/
+  variable_files:
+  - scan/rich-value-types/expressions/variables.tf
