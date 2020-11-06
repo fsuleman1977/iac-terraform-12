@@ -4,12 +4,12 @@ terraform_012_parameters:
   - root_module: rich-value-types/network/
       variables:
       - name: check
-				value: public-read-write
+        value: public-read-write
 			- name: varName2
 				value: varValue2
   - root_module: for-expressions/
     variable_files:
-			- scan/rich-value-types/expressions/variables.tf
+    - scan/rich-value-types/expressions/variables.tf
   - root_module: datafactory/
 tags:
   - 'Org: Panw'
